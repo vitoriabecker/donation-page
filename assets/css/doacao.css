@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.container {
+  flex: 1;
+  width: 100%;
+  max-width: 1100px;
+  padding: 20px;
+}
+
+.form h3{
+  padding-left: 5px;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.linha div {
+  margin-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.linha label {
+  text-align: left;
+  display: block;
+  margin-bottom: 1px;
+}
+
+.linha input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.col-50 {
+  flex: 0 0 50%;
+}
+
+.col-33 {
+  flex: 0 0 33.33%;
+}
+
+.col-25 {
+  flex: 0 0 25%;
+}
+
+.col-66 {
+  flex: 0 0 66.66%;
+}
+
+.container h1{
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  color: #252525;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.form{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.form h3{
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #99A66A;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+label{
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #252525;
+}
+
+.input-box input::placeholder{
+  color: #8C8C8C;
+}
+
+.cadastro-input{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.input-box input{
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 1px 6px #8C8C8C;
+}
+
+.input-box input:hover{
+  background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+  outline: 1px solid #99A66A;
+}
+
+.tipo-doacao{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 8px;
+  
+}
+
+.roupas-input, .dinheiro-input, .alimentos-input{
+  flex: 0 0 27%;
+}
+
+.tipo-doacao .linha-vertical{
+  width: 1.5px;
+  height: 430px;
+  background-color: #99A66A;
+}
+
+.tipo-doacao .input-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.tipo-doacao h4{
+  margin-bottom: 25px;
+}
+
+.input-radio {
+  margin-bottom: 13px;
+}
+
+.input-radio > label{
+  margin-bottom: 8px;
+  display:inline-block;
+}
+
+.input-radio > div > label{
+  padding: 5px;
+  font-weight: normal;
+}
+
+.botoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doar-button, .cancelar-button{
+  margin-top: 70px;
+  padding-right: 30px;
+}
+
+.doar-button input{
+  border: 1px solid #99A66A;
+  background-color: #99A66A;
+  padding: 0.4rem 6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: normal;
+  color: #fff;
+  font-size: 18px;
+}
+
+.doar-button input:hover{
+  background-color: #fff;
+  color: #99A66A;
+}
+
+.cancelar-button button{
+  border: 1px solid #99A66A;
+  background-color: #fff;
+  padding: 0.4rem 5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancelar-button button:hover{
+  background-color: #8C8C8C;
+}
+
+.cancelar-button button a{
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  color: #252525;
+}
+
+.rodape{
+  width: 100%;
+  display: flex;
+  background: #0D0D0D;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  color: #fff;
+}
+
+.logo{
+  text-align: left;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-right: 120px;
+}
+
+.rodape-navbar{
+  justify-content: center;
+}
+
+.rodape-navbar button{
+  border: none;
+  background-color: #0D0D0D;
+  padding: 2rem;
+  font-size: 20px;
+}
+
+.rodape-navbar a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.rodape .linha-vertical{
+  width: 1px;
+  height: 6.5rem;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.compartilhe a{
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.compartilhe a:hover{
+  background-color: #66796B;
+}
+
+.copyright{
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  text-transform: lowercase;
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: #99A66A;
+}
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.abrir-popup-container{
+  display: block;
+}
+
+.popup{
+  display: none;
+  width: 450px;
+  height: 310px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 45px 45px;
+  color: #252525; 
+  transition: transform 0.4s, top 0.4s;
+}
+
+.abrir-popup{
+  display: block;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2{
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.popup p{
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  line-height: 20px;
+}
+
+.popup button{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #99A66A;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsivo */
+@media screen and (max-width: 820px) {
+  .linha{
+    display: block;
+  }
+
+  .tipo-doacao{
+    display: block;
+  }
+
+  .linha-vertical{
+    display:none;
+  }
+
+  .tipo-doacao h4{
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .rodape{
+    padding: 15px;   
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+  }
+
+  .rodape .linha-vertical{
+    display:none;
+  }
+
+  .rodape .logo{
+    margin-right: 15px;
+  }
+
+  .rodape-navbar button{
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 608px){
+  .rodape{
+    grid-template-columns: (2, 1fr);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .form {
+    display: block;  
+  }
+  .botoes{
+    display: block;
+    padding-right: 0px;
+  }
+}
+
