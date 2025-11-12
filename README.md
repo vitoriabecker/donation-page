@@ -4,6 +4,7 @@ Simple donation page for a college project to practice front-end development. Th
 ### Built with:
 - HTML5
 - CSS3
+- JavaScript
 
 ### How to run:
 **1.** Clone or download the repository:
