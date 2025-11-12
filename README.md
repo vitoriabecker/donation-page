@@ -7,7 +7,7 @@ Simple donation page for a college project to practice front-end development. Th
 
 ### How to run:
 **1.** Clone or download the repository:\
-   git clone https://github.com/vitoriabecker/donation-page.git\
+   - git clone https://github.com/vitoriabecker/donation-page.git \
 **3.** Open it in your code editor\
 **4.** Open doacao.html in your browser
 
