@@ -6,8 +6,8 @@ Simple donation page for a college project to practice front-end development. Th
 - CSS3
 
 ### How to run:
-**1.** Clone or download the repository: \
-   - git clone https://github.com/vitoriabecker/donation-page.git \
+**1.** Clone or download the repository:
+   - git clone https://github.com/vitoriabecker/donation-page.git
 
 **3.** Open it in your code editor\
 **4.** Open doacao.html in your browser
