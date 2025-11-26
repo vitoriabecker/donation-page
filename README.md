@@ -1,12 +1,12 @@
 ## Donation Page
 Simple donation page for a college project to practice front-end development. This project features two forms: one for user details and another for donation information.
 
-### Built with:
+### Built with
 - HTML5
 - CSS3
 - JavaScript
 
-### How to run:
+### How to run
 **1.** Clone the repository:
 ```bash
 git clone https://github.com/vitoriabecker/donation-page.git
@@ -14,7 +14,7 @@ git clone https://github.com/vitoriabecker/donation-page.git
 **3.** Open it in your code editor\
 **4.** Open doacao.html in your browser
 
-### How it looks like:
+### How it looks like
 
 ### Author
 **Vitória Müller Becker**\
